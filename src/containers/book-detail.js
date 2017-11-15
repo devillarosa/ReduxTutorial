@@ -8,7 +8,6 @@ class BookDetail extends Component{
             return <div>Select a book to get started.</div>
         }
         
-        
         return (
             <div>
                 <h3>Details for</h3>
@@ -23,7 +22,7 @@ class BookDetail extends Component{
 function mapStateToProps(state){
 
     return {
-        books: state.actibeBook
+        books: state.activeBook
     };
 }
 
